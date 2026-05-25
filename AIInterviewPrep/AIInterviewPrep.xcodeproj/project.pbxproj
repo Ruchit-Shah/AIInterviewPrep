@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BEEDA4F12F910FC800B8A35E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEEDA4DB2F910FC700B8A35E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEEDA4E22F910FC700B8A35E;
+			remoteInfo = AIInterviewPrep;
+		};
+		BEEDA4FB2F910FC800B8A35E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEEDA4DB2F910FC700B8A35E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEEDA4E22F910FC700B8A35E;
+			remoteInfo = AIInterviewPrep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEEDA4E32F910FC700B8A35E /* AIInterviewPrep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIInterviewPrep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEDA4F02F910FC800B8A35E /* AIInterviewPrepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIInterviewPrepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEDA4FA2F910FC800B8A35E /* AIInterviewPrepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIInterviewPrepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BEEDA5102F910FDF00B8A35E /* Exceptions for "AIInterviewPrep" folder in "AIInterviewPrep" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/AIInterviewPrepApp.swift,
+				Presentation/Components/PrimaryButton.swift,
+			);
+			target = BEEDA4E22F910FC700B8A35E /* AIInterviewPrep */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		BEEDA5112F910FDF00B8A35E /* Exceptions for "AIInterviewPrep" folder in "Copy Bundle Resources" phase from "AIInterviewPrep" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = BEEDA4E12F910FC700B8A35E /* Resources */;
+			membershipExceptions = (
+				App/AIInterviewPrepApp.swift,
+				Presentation/Components/PrimaryButton.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BEEDA4E52F910FC700B8A35E /* AIInterviewPrep */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BEEDA5102F910FDF00B8A35E /* Exceptions for "AIInterviewPrep" folder in "AIInterviewPrep" target */,
+				BEEDA5112F910FDF00B8A35E /* Exceptions for "AIInterviewPrep" folder in "Copy Bundle Resources" phase from "AIInterviewPrep" target */,
+			);
+			path = AIInterviewPrep;
+			sourceTree = "<group>";
+		};
+		BEEDA4F32F910FC800B8A35E /* AIInterviewPrepTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AIInterviewPrepTests;
+			sourceTree = "<group>";
+		};
+		BEEDA4FD2F910FC800B8A35E /* AIInterviewPrepUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AIInterviewPrepUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEEDA4E02F910FC700B8A35E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEEDA4ED2F910FC800B8A35E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEEDA4F72F910FC800B8A35E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEEDA4DA2F910FC700B8A35E = {
+			isa = PBXGroup;
+			children = (
+				BEEDA4E52F910FC700B8A35E /* AIInterviewPrep */,
+				BEEDA4F32F910FC800B8A35E /* AIInterviewPrepTests */,
+				BEEDA4FD2F910FC800B8A35E /* AIInterviewPrepUITests */,
+				BEEDA4E42F910FC700B8A35E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEEDA4E42F910FC700B8A35E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEEDA4E32F910FC700B8A35E /* AIInterviewPrep.app */,
+				BEEDA4F02F910FC800B8A35E /* AIInterviewPrepTests.xctest */,
+				BEEDA4FA2F910FC800B8A35E /* AIInterviewPrepUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEEDA4E22F910FC700B8A35E /* AIInterviewPrep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEEDA5042F910FC800B8A35E /* Build configuration list for PBXNativeTarget "AIInterviewPrep" */;
+			buildPhases = (
+				BEEDA4DF2F910FC700B8A35E /* Sources */,
+				BEEDA4E02F910FC700B8A35E /* Frameworks */,
+				BEEDA4E12F910FC700B8A35E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BEEDA4E52F910FC700B8A35E /* AIInterviewPrep */,
+			);
+			name = AIInterviewPrep;
+			packageProductDependencies = (
+			);
+			productName = AIInterviewPrep;
+			productReference = BEEDA4E32F910FC700B8A35E /* AIInterviewPrep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEEDA4EF2F910FC800B8A35E /* AIInterviewPrepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEEDA5072F910FC800B8A35E /* Build configuration list for PBXNativeTarget "AIInterviewPrepTests" */;
+			buildPhases = (
+				BEEDA4EC2F910FC800B8A35E /* Sources */,
+				BEEDA4ED2F910FC800B8A35E /* Frameworks */,
+				BEEDA4EE2F910FC800B8A35E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEEDA4F22F910FC800B8A35E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BEEDA4F32F910FC800B8A35E /* AIInterviewPrepTests */,
+			);
+			name = AIInterviewPrepTests;
+			packageProductDependencies = (
+			);
+			productName = AIInterviewPrepTests;
+			productReference = BEEDA4F02F910FC800B8A35E /* AIInterviewPrepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEEDA4F92F910FC800B8A35E /* AIInterviewPrepUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEEDA50A2F910FC800B8A35E /* Build configuration list for PBXNativeTarget "AIInterviewPrepUITests" */;
+			buildPhases = (
+				BEEDA4F62F910FC800B8A35E /* Sources */,
+				BEEDA4F72F910FC800B8A35E /* Frameworks */,
+				BEEDA4F82F910FC800B8A35E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEEDA4FC2F910FC800B8A35E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BEEDA4FD2F910FC800B8A35E /* AIInterviewPrepUITests */,
+			);
+			name = AIInterviewPrepUITests;
+			packageProductDependencies = (
+			);
+			productName = AIInterviewPrepUITests;
+			productReference = BEEDA4FA2F910FC800B8A35E /* AIInterviewPrepUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEEDA4DB2F910FC700B8A35E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					BEEDA4E22F910FC700B8A35E = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					BEEDA4EF2F910FC800B8A35E = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = BEEDA4E22F910FC700B8A35E;
+					};
+					BEEDA4F92F910FC800B8A35E = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = BEEDA4E22F910FC700B8A35E;
+					};
+				};
+			};
+			buildConfigurationList = BEEDA4DE2F910FC700B8A35E /* Build configuration list for PBXProject "AIInterviewPrep" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEEDA4DA2F910FC700B8A35E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BEEDA4E42F910FC700B8A35E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEEDA4E22F910FC700B8A35E /* AIInterviewPrep */,
+				BEEDA4EF2F910FC800B8A35E /* AIInterviewPrepTests */,
+				BEEDA4F92F910FC800B8A35E /* AIInterviewPrepUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEEDA4E12F910FC700B8A35E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEEDA4EE2F910FC800B8A35E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEEDA4F82F910FC800B8A35E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEEDA4DF2F910FC700B8A35E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEEDA4EC2F910FC800B8A35E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEEDA4F62F910FC800B8A35E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEEDA4F22F910FC800B8A35E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEEDA4E22F910FC700B8A35E /* AIInterviewPrep */;
+			targetProxy = BEEDA4F12F910FC800B8A35E /* PBXContainerItemProxy */;
+		};
+		BEEDA4FC2F910FC800B8A35E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEEDA4E22F910FC700B8A35E /* AIInterviewPrep */;
+			targetProxy = BEEDA4FB2F910FC800B8A35E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BEEDA5022F910FC800B8A35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEEDA5032F910FC800B8A35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEEDA5052F910FC800B8A35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs microphone access for voice input.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app needs microphone access for voice input.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AIInterviewPrep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEEDA5062F910FC800B8A35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs microphone access for voice input.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app needs microphone access for voice input.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AIInterviewPrep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEEDA5082F910FC800B8A35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..AIInterviewPrepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AIInterviewPrep.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AIInterviewPrep";
+			};
+			name = Debug;
+		};
+		BEEDA5092F910FC800B8A35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..AIInterviewPrepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AIInterviewPrep.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AIInterviewPrep";
+			};
+			name = Release;
+		};
+		BEEDA50B2F910FC800B8A35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..AIInterviewPrepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AIInterviewPrep;
+			};
+			name = Debug;
+		};
+		BEEDA50C2F910FC800B8A35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..AIInterviewPrepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AIInterviewPrep;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEEDA4DE2F910FC700B8A35E /* Build configuration list for PBXProject "AIInterviewPrep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEEDA5022F910FC800B8A35E /* Debug */,
+				BEEDA5032F910FC800B8A35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEEDA5042F910FC800B8A35E /* Build configuration list for PBXNativeTarget "AIInterviewPrep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEEDA5052F910FC800B8A35E /* Debug */,
+				BEEDA5062F910FC800B8A35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEEDA5072F910FC800B8A35E /* Build configuration list for PBXNativeTarget "AIInterviewPrepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEEDA5082F910FC800B8A35E /* Debug */,
+				BEEDA5092F910FC800B8A35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEEDA50A2F910FC800B8A35E /* Build configuration list for PBXNativeTarget "AIInterviewPrepUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEEDA50B2F910FC800B8A35E /* Debug */,
+				BEEDA50C2F910FC800B8A35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEEDA4DB2F910FC700B8A35E /* Project object */;
+}
